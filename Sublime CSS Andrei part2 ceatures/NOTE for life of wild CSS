@@ -1,0 +1,23 @@
+/*Sunday 7/6/20 L-54-flexbox*/
+/*https://css-tricks.com/snippets/css/a-guide-*/
+
+Wednesday 10/6/20 L-56 CSS 3
+
+moz-box-shadow: 4px 4px 5px #888 // what you do those days that browsers dont support or -webkit- for safari see below
+-webkit-transition:
+
+h1 {
+-moz-box-shadow:4px 4px 5px #888;
+-ms-box-shadow:4px 4px 5px #888;
+-webkit-box-shadow:4px 4px 5px #888;
+-o-box-shadow:4px 4px 5px #888
+box-shadow: 4px 4px 5px #888
+box-shadow: 4px 4px 5px #888
+}
+img {
+transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}

@@ -1,0 +1,48 @@
+/*Sunday 7/6/20 L-54-flexbox*/
+/*https://css-tricks.com/snippets/css/a-guide-*/
+body{
+	margin: 0px;
+background-image: -webkit-linear-gradient(45deg, #1abc9c, #E4E9FD 50%, #E4E9FD 50%);
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1 {
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom:  2px solid pink;
+	border-right:  2px solid pink;
+	width: 400px;
+	text-align: center;
+	-moz-box-shadow:4px 4px 5px #888;
+	-ms-box-shadow:4px 4px 5px #888;
+	-webkit-box-shadow:4px 4px 5px #888;
+	-o-box-shadow:4px 4px 5px #888
+	box-shadow: 4px 4px 5px #888
+	margin-top:10px;
+}
+
+img	{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+img:hover {
+	transform: scale(1.1);
+}
+
+
+
+
+
+footer{
+	transition: all 1s;
+}
+
+footer:hover {
+	transform: scale(1.1);
+}
